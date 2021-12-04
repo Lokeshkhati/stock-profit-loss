@@ -14,15 +14,18 @@ body {
   font-family: "Work Sans", sans-serif;
   text-align: center;
   background-color: rgb(10, 236, 149);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
 
 main {
   height: 520px;
-  /* max-height: 500px; */
   max-width: 400px;
   background-color: #fff;
-  margin: 0 auto;
   border-radius: 5px;
+  width: 100%;
 }
 a {
   text-decoration: none;
@@ -86,7 +89,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  max-height: 0rem;
+  max-height: 0.2rem;
 }
 
 footer p {
@@ -105,7 +108,7 @@ li {
 }
 
 img {
-  width:30px;
+  width:40px;
   
   
 }
