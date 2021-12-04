@@ -3,6 +3,8 @@ var initialPrice = document.querySelector("#initial-price");
 var stocksQuantity = document.querySelector("#stocks-quantity");
 var currentPrice = document.querySelector("#current-price");
 var submitBtn = document.querySelector("#submit-btn");
+var outputBox = document.querySelector("#output-box");
+
 
 submitBtn.addEventListener("click", submitHandler);
 
@@ -13,6 +15,8 @@ function submitHandler() {
 
   calculateProfitAndLoss(ip, qty, curr);
 }
+
+
 function calculateProfitAndLoss(initial, quantity, current) {
   if (initial > current) {
     var loss = (initial - current) * quantity;
@@ -29,7 +33,7 @@ function calculateProfitAndLoss(initial, quantity, current) {
       `Hey, the profit is ${profit} and the percent is ${profitPercentage}%`
     );
   } else {
-    showOutput(`No pain No gain `);
+    showOutput(`No pain no gain`);
   }
 }
 
