@@ -113,3 +113,11 @@ img {
   
 }
 
+@media(max-width:400px){
+  img{
+    display: none;
+  }
+  footer p {
+    display: none;
+  }
+}
