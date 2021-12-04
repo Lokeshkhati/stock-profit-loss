@@ -89,7 +89,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  max-height: 0.2rem;
+  max-height: rem;
 }
 
 footer p {
