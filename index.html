@@ -10,51 +10,60 @@
 </head>
 
 <body>
-        <main>
-            <header>
-                <h1>Stock Profit or Loss </h1>
-            </header>
-            <label class="input-label" for="initial-price">
-                Intial Price
-                <input class="input" type="text" id="initial-price" placeholder="Enter Initial Price" /></label>
-            <label class="input-label" for="stocks-quantity">
-                Quantity of Stocks
-                <input class="input" type="text" id="stocks-quantity" placeholder="Enter the Number of Stocks bought" />
-            </label>
-            <label class="input-label" for="current-price">Current Price
-                <input class="input" type="text" id="current-price"
-                    placeholder="Enter the Current Price of the stocks" /></label>
-    
-            <button id="submit-btn" class="btn-check">Calculate</button>
-    
-            <div id="output-box" class="output"></div>
-        </main>
-    
+    <nav>
+        <h1>Stock Profit & Loss Calculator</h1>
+    </nav>
+
+
+
+    <main>
+        <header>
+            <h1>Stock Profit or Loss </h1>
+        </header>
+        <label class="input-label" for="initial-price">
+            Initial Price
+            <input class="input" type="text" id="initial-price" /></label>
+        <label class="input-label" for="stocks-quantity">
+            Quantity of Stocks
+            <input class="input" type="text" id="stocks-quantity" />
+        </label>
+        <label class="input-label" for="current-price">Current Price
+            <input class="input" type="text" id="current-price" /></label>
+
+        <button id="submit-btn" class="btn-calculate">Calculate</button>
+
+        <div id="output" class="output"></div>
+    </main>
+
+
+    <!-- FOOTER -->
     <footer>
         <p>© | 2021 | LOKESH KHATI</p>
-        <ul class="list-unordered inline-list">
+        <ul>
             <li>
                 <a class="links" href="https://github.com/Lokeshkhati" target="_blank">
-                    <img src="github.svg" alt="github" />
+                    <img src="./images/github.svg" alt="github" />
                 </a>
             </li>
             <li>
                 <a class="links" href="https://twitter.com/LOKESHKHATI12" target="_blank">
-                    <img src="twitter.svg" alt="twitter" />
+                    <img src="./images/twitter.svg" alt="twitter" />
                 </a>
             </li>
             <li>
                 <a class="links" href="https://www.linkedin.com/in/lokesh-khati/" target="_blank">
-                    <img src="linkedin.svg" alt="instagram" />
+                    <img src="./images/linkedin.svg" alt="linkedin" />
+                </a>
+            </li>
+            <li>
+                <a class="links" href="https://hashnode.com/@Lokesh005" target="_blank">
+                    <img src="./images/hashnode.svg" alt="hashnode" />
                 </a>
             </li>
         </ul>
     </footer>
 
-    
-    
-    
-   <script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
